@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Netflix</title>
+        <link rel="icon" href="netflix.jpg">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap" rel="stylesheet">
+
+        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="logo">NETFLIX</div>
+                <ul class="nav-links">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">Channels</a></li>
+                    <li><a href="#series">Series</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="slider" id="top">
+            <div class="videoContainer">
+                <video autoplay loop id="myvideo" width="100%" >
+                    <source src="images/kgfc.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="content" id="con">
+                <h1 class="iop" style="font-weight: bold;">KGF 2</h1>
+                <p class="iop iop1">Rocky successfully rises as the leader and saviour of the people of the Kolar Gold Fields. But, in his goal to fulfil his mother's wishes, Rocky must tackle Adheera, Inayat Khalil and Ramika Sen.</p> 
+                <button id="myBtn" onclick="myFunction()">Play</button>
+            </div>
+        </div>
+
+        <h1 class="title first">Newly Added..</h1>
+        <div class="card-container last ">             
+            <div class="card floatcard" >
+                <img src="images/Jawan.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/jailer.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/adi.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/satya.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/rocky.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/dilBechara.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/brahmastra.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/vikram.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/open.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/gog.jpg" alt="bhediya" class="card-img">
+            </div>
+        </div>
+
+
+        <h1 class="title">Highly Rated Movies</h1>
+        <div class="card-container last">             
+            <div class="card floatcard" >
+                <img src="images/pathan.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/pushpa.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/shershaah.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/Sita-Ramam.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/titanic2.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/rrr.jpeg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/major.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/chhichhore.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/interstellar.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/kantara.jpg" alt="bhediya" class="card-img">
+            </div>
+        </div>
+
+
+        <h1 class="title">Telugu Content</h1>
+        <div class="card-container last">             
+            <div class="card floatcard" >
+                <img src="images/waltairVeerayya.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/bheemlaNayak.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/veerasimhareddy.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/alaVaikunthapurramuloo.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/anteSundharaniki.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/sarkaruVaariPaata.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/theWarriorr.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/balagam.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/bahu2.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/loveStory.jpg" alt="bhediya" class="card-img">
+            </div>
+        </div>
+
+
+        <h1 class="title">Hindi Content</h1>
+        <div class="card-container last"> 
+            <div class="card floatcard" >
+                <img src="images/83.jpg" alt="bhediya" class="card-img">
+            </div>            
+            <div class="card floatcard" >
+                <img src="images/drive.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/dilwale.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/ks.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/shamshera.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/bhediya.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/freddy.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/atrangiRe.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/tuJhoothiMainMakkaar.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/satya.jpg" alt="bhediya" class="card-img">
+            </div>
+
+        </div>
+
+        <h1 class="title" id="series">Famous Web Series</h1>
+        <div class="card-container last" >             
+            <div class="card floatcard" >
+                <img src="images/pbser.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/stser.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/sgser.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/rnser.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/darkser.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/wedser.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/maniser.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/mhser.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/aosser.jpg" alt="bhediya" class="card-img">
+            </div>
+            <div class="card floatcard" >
+                <img src="images/wwskser.jpg" alt="bhediya" class="card-img">
+            </div>
+        </div>
+
+        <script src="ind.js"></script>
+        
+    </body>
+
+</html>
